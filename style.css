@@ -1,0 +1,409 @@
+/* 
+fonts Familes Used
+*/
+/* Navbar - Rubik
+ hero info - roboto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat:wght@400;700;900&family=Roboto&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* 
+
+NavBar Section
+
+*/
+
+
+.navbar-nav >  a:hover{
+    color: #FF5151;
+}
+
+.navbar > .nav-E3{
+    width: 10%;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+/* 
+
+Hero Section
+
+*/
+
+.hero-section{
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background: linear-gradient(90deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+    height: 30%;
+    margin-top: 1rem;
+    height: 60vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  
+}
+
+.hero-prt-1{
+    flex: 1;
+    height: 90%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* justify-content: space-evenly; */
+    height: 60%;
+    margin-top: 3.5rem;
+    margin-left: 3.5rem;
+}
+
+.hero-info > img{
+    margin-top:1rem ;
+    margin-bottom: 1rem;
+}
+
+
+.hero-prt-1 > button{
+   
+    margin-left: 3.5rem;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+   
+    cursor: pointer;
+    color:  #4F5665;
+;
+   }
+.hero-prt-1 > .hero-info > h1{
+    font-size: 8rem;
+}
+
+.hero-prt-1 > button:hover{
+    color: #4f5665;
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.5) 0%, #FF5E3A 100%);
+    font-weight: 600;
+}
+
+.hero-prt-2{
+    height: 100%;
+    align-items: center;
+}
+.hero-prt-2 > .img-1{   
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-prt-2 > .img-2{
+    position: absolute;
+    right: 0;
+    max-width: 60%;
+    max-height: 60%;
+    margin-right: 1%;
+    
+}
+
+
+/* 
+
+Collection Section
+
+*/
+
+.Collection-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 1rem;
+    
+}
+
+.Collection-btn > button{
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    width: 130px;
+    height: 60px;
+    color:  #4F5665;
+}
+
+.Collection-btn > button:hover{
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.5) 0%, #FF5E3A 100%);
+}
+
+
+/* 
+
+Collection Card Section
+
+*/
+.Collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+
+
+.card-wing{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Collection-card{
+    width: 25%;
+    height: 380px;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 1rem;
+    overflow: hidden;
+    
+}
+
+.coll-card-img{
+    background:linear-gradient(to bottom,#ffe5d7,#ffded7);
+
+    height: 70%;
+    width: 100%;
+   text-align: center;
+}
+.coll-card-img >img{
+    margin-top: 1%;
+}
+.card-info-sub{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.coll-card-info > h5{
+margin: 0.5rem;
+}
+.card-info-sub > button{
+    border: none;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #FF5151;
+}
+
+
+
+/* 
+  grid Section
+*/
+
+
+.collection-grid{
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 550px 550px;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin: 1rem;
+    margin-right: 2rem;
+}
+.item-2{
+   grid-row:span 2;
+    
+}
+.item-1{
+    
+    background-size:auto;
+    text-align:center;
+    position: relative;
+}
+
+.item-3{
+   
+    background-size:auto;
+    position: relative;
+    
+}
+.item-2{
+   
+     background-size:auto;
+     position: relative;
+}
+
+.txt-Align{
+    position: absolute;
+    bottom:20px;
+    left: 30px;
+}
+.grid{
+    margin: 1rem;
+}
+
+/* 
+
+  Categories
+
+*/
+
+.category{
+    margin: 3rem;
+}
+
+.category-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.cat-card{
+    width: 20%;
+    height: 300px;
+    margin: 1rem;
+
+}
+
+.cat-card-img{
+    background: #f0f0f0;
+}
+
+
+
+.cat-card-sub > button{
+    background: #909090;
+
+}
+
+
+.footer{
+    background: #FCCB9026;
+    height: 40vh;
+    margin: 2rem;
+   
+    
+}
+.footer-tems{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-item-1,.footer-item-2{
+    width: 25%;
+}
+.footer > div >.footer-item-2 a{
+    text-decoration: none;
+    color: #4f5665;
+}
+.footer-item-1 , .footer-item-2 >   li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    Mobile View Responsiveness
+
+*/
+
+@media (max-width:960px) {
+    
+    .hero-section{
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .hero-info{
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        margin: auto;
+    }
+    .hero-prt-1{
+        width: 100%;
+       text-align: center;
+    }
+    .hero-info > button{
+        margin: 0;
+    }
+
+    .hero-prt-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-prt-2 > .img-1{
+        display: none;
+    }
+    .hero-prt-2 > .img-2{
+       position: relative;
+       display: block;
+    }
+
+    .Collection-btn{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .Collection-btn > button{
+        margin: 1rem;
+    }
+
+    .card-wing{
+        display: inherit;
+        align-items: center;
+    }
+
+    .Collection-card{
+        width: 80%;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    .collection-grid{
+
+        grid-template-columns: repeat(1,minmax(200px,1fr));
+        align-items: center;
+        
+    }
+
+    .footer-tems{
+        flex-direction: column;
+        align-items: start;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3,1fr);
+       background: #FCCB9026; 
+    }
+
+
+
+    
+}
+
+@media (max-width:600px) {
+    .hero-prt-1 > .hero-info > h1{
+        font-size: 5rem;
+    }
+}
